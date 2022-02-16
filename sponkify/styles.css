@@ -3,25 +3,32 @@
   margin: 0;
 }
 body {
-  background-color: black;
+  background-color: rgb(63, 61, 58);
 }
 .h1 {
   font-size: 18px;
-  color: white;
-  font-weight: 100;
-  font-family: "Public Sans", sans-serif;
+  color: black;
+  font-weight: 200;
+  background-color: white;
+  width: 100px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px;
+  font-family: "Staatliches", cursive;
+  font-family: "Unna", serif;
 }
 .box1,
 .box2,
 .box3 {
   position: relative;
   padding: 5px;
-  font-weight: 200px;
-  font-size: 15px;
+  font-weight: 700px;
+  font-size: 12px;
   text-align: center;
+  box-shadow: 1px 1px 1px;
   left: 5%;
-  margin: 3px;
-  font-family: "Public Sans", sans-serif;
+  margin: 5px;
+  font-family: "Staatliches", cursive;
+  font-family: "Unna", serif;
   background-color: rgb(255, 255, 255);
   width: 350px;
   height: 20px;
@@ -31,11 +38,25 @@ body {
 }
 .nav {
   position: relative;
-  color: white;
+  color: rgb(0, 0, 0);
   display: flex;
   font-size: 10px;
   text-align: right 5px;
-  font-family: "Public Sans", sans-serif;
-  left: 260px;
+  font-family: "Staatliches", cursive;
+  font-family: "Unna", serif;
+  left: 250px;
   list-style: none;
+  width: 160px;
+  border-radius: 2px;
+  font-weight: 500;
+  justify-content: space-between;
+}
+.infobox1 {
+  background-color: #ffffff10;
+  width: 300px;
+  height: 300px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 4px;
+  align-items: center;
 }
